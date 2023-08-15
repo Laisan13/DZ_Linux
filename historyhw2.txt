@@ -1,0 +1,22 @@
+   0 mkdir -p /home/user/start
+   1 touch /home/user/start/1.txt
+   2 cd /home/user/start
+   3 echo "Start" > 1.txt
+   4 date
+   5 date >>  1.txt
+   6 mkdir -p /opt/task
+   7 cp 1.txt /opt/task/start.txt
+   8 cd /opt/task/
+   9 ls -a / | tail -4 >> start.txt
+  10 cat start.txt
+  11 mkdir -p /tmp/testnew
+  12 cp -r /opt/task /tmp/testnew/task
+  13 cd /root
+  14 cat readme.txt
+  15 cat readme.txt >> /tmp/testnew/task/start.txt
+  16 cat /tmp/testnew/task/start.txt
+  17 cd /opt
+  18 rm -r /opt/task
+  19 tree
+  20 history
+  21 history > historyhw2.txt
