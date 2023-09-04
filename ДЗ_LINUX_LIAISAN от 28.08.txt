@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo -n "your name is:  "
+whoami
+echo -n "your working directory is: "
+pwd
+echo -n "Number of users:"
+ps -f | grep ssh
+echo "done"
